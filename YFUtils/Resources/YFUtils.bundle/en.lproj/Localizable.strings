@@ -1,0 +1,12 @@
+/* 
+  UIAlertController.strings
+  TaxRefund
+
+  Created by Ben on 2017/5/17.
+  Copyright © 2017年 TradeVan. All rights reserved.
+*/
+
+
+"alert_error_title" = "Error";
+"alert_message_title" = "Message";
+"alert_button_done" = "OK";

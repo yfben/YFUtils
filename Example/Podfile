@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YFUtils_Example' do
+  pod 'YFUtils', :path => '../'
+
+  target 'YFUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
