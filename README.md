@@ -32,9 +32,9 @@ LoadingView.hide()
 ### Reuse XIB in Strorybaord
   1. Design your reusable xib and create the corresponding swift file
   2. In the swift file
-    a. Subclass `CustomView` and mark it with `@IBDesignable` annotation
-    b. Mark designable property with `@IBInspectable`
-    c. Override `setupCustomNib()`
+      a. Subclass `CustomView` and mark it with `@IBDesignable` annotation
+      b. Mark designable property with `@IBInspectable`
+      c. Override `setupCustomNib()`
   3. In the storyboard file, set the ***Custom Class*** as the corresponding class
   4. In the xib file, set the ***Custom Class*** of ***File's Owner*** as the corresponding class
   5. Enjoy it!!!
