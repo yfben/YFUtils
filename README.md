@@ -10,7 +10,7 @@ yfben, benxyz.chen@gmail.com
 $ gem install cocoapods
 ```
 
-To integrate YFUtils into your Xcode project using CocoaPods, specify it in your Podfile:
+To integrate YFUtils into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 platform :ios, '9.0'
@@ -19,6 +19,11 @@ target '<Your Target Name>' do
     use_frameworks!
     pod 'YFUtils'
 end
+```
+
+Then, run the following command:
+```bash
+$ pod install
 ```
 
 ## Usage
