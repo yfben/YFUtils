@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFUtils'
-  s.version          = '1.0.2'
-  s.license          = 'MIT'
+  s.version          = '1.0.3'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'iOS common utilities'
   s.homepage         = 'https://github.com/yfben/YFUtils'
   s.author           = { 'yfben' => 'benxyz.chen@gmail.com' }

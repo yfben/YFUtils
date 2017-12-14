@@ -3,6 +3,24 @@
 ## Author
 yfben, benxyz.chen@gmail.com
 
+## Installation
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate YFUtils into your Xcode project using CocoaPods, specify it in your Podfile:
+
+```ruby
+platform :ios, '9.0'
+
+target '<Your Target Name>' do
+    use_frameworks!
+    pod 'YFUtils'
+end
+```
+
 ## Usage
 ### Internationalization
 1. Add `Localizable.strings` file and localize it with preferred language
