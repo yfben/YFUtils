@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFUtils'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.license          = 'MIT'
   s.summary          = 'iOS common utilities'
   s.homepage         = 'https://github.com/yfben/YFUtils'

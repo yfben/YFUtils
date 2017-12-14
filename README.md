@@ -1,11 +1,9 @@
 # YFUtils
 
 ## Author
-***
 yfben, benxyz.chen@gmail.com
 
 ## Usage
-***
 ### Internationalization
 1. Add `Localizable.strings` file and localize it with preferred language
 2. Subclass `LocalizedViewController` class
