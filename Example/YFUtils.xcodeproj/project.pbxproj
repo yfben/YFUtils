@@ -219,10 +219,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D3LTJ3YZ76;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D3LTJ3YZ76;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -536,6 +538,7 @@
 			baseConfigurationReference = 4FF0D5056D2AF74E70F30A9C /* Pods-YFUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3LTJ3YZ76;
 				INFOPLIST_FILE = YFUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -551,6 +554,7 @@
 			baseConfigurationReference = 7688FA95791C23EFE5631E6C /* Pods-YFUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3LTJ3YZ76;
 				INFOPLIST_FILE = YFUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -565,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68CDCBBA62FAC854A04198C5 /* Pods-YFUtils_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D3LTJ3YZ76;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -586,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C64B98F9F83C7F2AD6F396AE /* Pods-YFUtils_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D3LTJ3YZ76;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

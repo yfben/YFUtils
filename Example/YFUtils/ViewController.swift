@@ -29,7 +29,11 @@ class ViewController: LocalizedViewController {
     }
     
     @IBAction func messageButtonUpInside(_ sender: Any) {
-        alert(message: "message_button_message".localized(), type: .error)
+        alert(message: "alert_controller_message".localized(), type: .message, handler: {
+            [unowned self]
+            _ in
+            self.alert(message: "alert_controller_error".localized(), type: .error)
+        }, completion: nil)
     }
     
     @IBAction func loadingButtonUpInside(_ sender: Any) {
